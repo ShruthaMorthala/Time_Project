@@ -1,0 +1,147 @@
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+}
+#Main_title {
+	text-align: center;
+}
+#switchbutton {
+	width: 120px;
+	height: 60px;
+	background-color: #6E1F08;
+	border-color: #6E1F08;
+	border-radius: 5px;
+	border-style: none;
+}
+button {
+	font-family: 'Press Start 2P', cursive;
+	color: white;
+	cursor: pointer;
+}
+#Main_title>header>h1 {
+	font-family: 'Indie Flower', cursive;
+	font-weight: lighter;
+	font-size: 3em;
+	text-decoration: underline;
+}
+.FirstPart_letter>p {
+	font-family: 'Indie Flower', cursive;
+	font-weight: lighter;
+	text-align: center;
+	font-size: 2em;
+}
+.FirstPart_letter>p>#striked_out {
+	font-family: 'Indie Flower', cursive;
+	font-weight: lighter;
+	text-align: center;
+	font-size: 1em;
+	text-decoration: line-through;
+}
+.SecondPart_letter>p {
+	font-family: 'Indie flower', cursive;
+	font-weight: lighter;
+	text-align: center;
+	font-size: 2em;
+}
+.container1 {
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: row;
+	margin-left: 200px;
+}
+.container2 {
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: row;
+	margin-left: 320px;
+}
+.container1>div {
+	width: 80px;
+	margin: 50px;
+	text-align: center;
+	line-height: 75px;
+	margin-right: 190px;
+}
+.container2>div {
+	width: 100px;
+	margin: 50px;
+	text-align: center;
+	line-height: 75px;
+	margin-right: 170px;
+}
+#girl_plantingTree>img {
+	width: 20em;
+	height: 20em;
+	-webkit-border-radius: .5em;
+	-moz-border-radius: .5em;
+	border-radius: .5em;
+	cursor: not-allowed;
+}
+#topview_plant>img {
+	width: 20em;
+	height: 20em;
+	-webkit-border-radius: .5em;
+	-moz-border-radius: .5em;
+	border-radius: .5em;
+	cursor: not-allowed;
+}
+#happy_girl>img {
+	width: 20em;
+	height: 20em;
+	-webkit-border-radius: .5em;
+	-moz-border-radius: .5em;
+	border-radius: .5em;
+	cursor: not-allowed;
+}
+#tree>img {
+	width: 20em;
+	height: 20em;
+	-webkit-border-radius: .5em;
+	-moz-border-radius: .5em;
+	border-radius: .5em;
+	cursor: not-allowed;
+}
+#happy_lady>img {
+	width: 20em;
+	height: 20em;
+	-webkit-border-radius: .5em;
+	-moz-border-radius: .5em;
+	border-radius: .5em;
+	cursor: not-allowed;
+}
+#girl_plantingTree:hover {
+	-ms-transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+	transform: scale(1.2);
+}
+#topview_plant:hover {
+	-ms-transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+	transform: scale(1.2);
+}
+#happy_girl:hover {
+	-ms-transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+	transform: scale(1.2);
+}
+#tree:hover {
+	-ms-transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+	transform: scale(1.2);
+}
+#happy_lady:hover {
+	-ms-transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+	transform: scale(1.2);
+}
+.Copyright {
+	font-size: .8em;
+	bottom: 0;
+	font-weight: bold;
+}
